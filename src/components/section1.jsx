@@ -12,7 +12,8 @@ function Section1() {
                     {/* <li><a href="#"></a></li> */}
                 </ul>
             </nav>
-            <main>
+
+            {/* <main> */}
             <section className="section-1">
 
 
@@ -63,10 +64,8 @@ function Section1() {
             </div>
 
             </section>    
-            <div className="section-2">
-                {/* <h1>Lolu Bolarinwa</h1> */}
-            </div>    
-            </main>
+            
+            {/* </main> */}
         </div>
     )
 }
