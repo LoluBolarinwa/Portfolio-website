@@ -1,6 +1,6 @@
 import React from "react";
 
-function Section() {
+function Section1() {
     return (
         <div>
             <nav className="navbar">
@@ -71,4 +71,4 @@ function Section() {
     )
 }
 
-export default Section;
+export default Section1;
