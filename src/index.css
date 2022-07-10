@@ -164,20 +164,7 @@ h1{
   padding: 0;
 }
 
-@media only screen and (max-width:600px){
-  .description{
-    width: 100%;
-  /* background: salmon; */
-
-  }
-
-  .main{
-    /* background: white; */
-    width: 80%;
-
-  }
-}
-
+/* Floating Social Icons */
 .header__socials {
   /* background: moccasin; */
   color: white;
@@ -214,9 +201,13 @@ svg:hover{
   width: 1px;
   /* margin-left:50px ; */
 }
+/* Floating Social Icons End */
+
 
 .section-2{
-  background-color: rgb(37, 37, 37);
+  /* background-color: rgb(37, 37, 37); */
+  background-color: rgb(2, 82, 143);
+  /* background-color: rgb(37, 37, 37); */
   /* height: 35rem; */
   height: 180vh;
   width: 100%;
@@ -233,12 +224,14 @@ svg:hover{
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  /* padding: 20px; */ /*center project content*/
 }
 
 .project-content{
   background-color: indigo;
   float: left;
   color: aqua;
+  margin-right: 20px;
   /* margin-top: 2rem; */
   /* padding: 2rem; */
   width: 250px;
@@ -246,6 +239,29 @@ svg:hover{
 }
 
 .project-description{
-  padding: auto;
-  margin: ;
+  /* padding: 7px 5px ; */
+  /* padding-left: 5px; */
+  padding-top:20px;
+  /* padding-right: 20px; */
+/* font-size: 20px; */
+  /* margin:5px ; */
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+  .description{
+    width: 100%;
+  /* background: salmon; */
+
+  }
+
+  .main{
+    /* background: white; */
+    width: 80%;
+
+  }
 }
