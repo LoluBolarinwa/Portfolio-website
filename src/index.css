@@ -53,7 +53,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 /* background: radial-gradient(circle, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 100%); */
 
 background: rgb(13,69,102);                                                                 /*rgb(6, 31, 60)*/
-background: radial-gradient(circle at 30% 25%, rgba(13,69,102,1) 12%, rgb(9, 48, 73) 20%, rgb(2, 18, 36) 80%);
+background: radial-gradient(circle at 30% 25%, #0d4566 12%, rgb(9, 48, 73) 20%, rgb(2, 18, 36) 80%);
 
   /* background-color: #032b43; */
   /* font-size: 4rem; */
@@ -82,10 +82,20 @@ background: radial-gradient(circle at 30% 25%, rgba(13,69,102,1) 12%, rgb(9, 48,
   /* font-style: italic; */
 }
 
+.name{
+  font-size: 5rem;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  /* line-height: 0.9; */
+  margin-bottom: 2rem;
+  /* margin: 0; */
+  /* background-color: firebrick; */
+}
+
 .job-title{
   color: #ff9900;
   font-size: 3rem;
-
+  
 }
 
 
@@ -157,15 +167,26 @@ li a:hover{
   /* background: blue; */
 }
 
-.name{
+.about-me{
+  width: 75%;
   font-size: 5rem;
-  /* text-transform: uppercase; */
-  font-weight: 500;
-  /* line-height: 0.9; */
-  margin-bottom: 2rem;
-  /* margin: 0; */
-  /* background-color: firebrick; */
+  height: 50vh;
+  color: black;
+  color: #05172c;
+  margin: 0 auto ;
+  /* background-color:  #776989; */
+  font-weight: 800;
+  border: #0d4566;
+  /* padding-top: 7rem; */
+  font-size: 3rem;
+
 }
+
+.me{
+  color: #ff9900;
+
+}
+
 
 h1{
   margin: 0;
@@ -214,13 +235,18 @@ svg:hover{
 
 .section-2{
   /* background-color: rgb(37, 37, 37); */
-  background-color:  rgb(8, 52, 78);
-  /* background-color: rgb(37, 37, 37); */
+  /* background-color:  rgb(8, 52, 78); */
+  /* background-color:  rgba(7, 39, 57, 0.757); */
+  /* background-color:  #0e2332e1; */
+  /* background-color:  #103452; */
+  /* background-color: rgb(134, 132, 132); */
+  background-color: rgb(207, 207, 207);
+  /* background-color: rgb(44, 44, 44); */
   /* height: 35rem; */
-  height: 180vh;
+  height: 110vh;
   width: 100%;
   /* margin-top: 0; */
-  padding-top: 150px;
+  padding-top: 100px;
   /* padding-left: 50px; */
 }
 
@@ -255,6 +281,22 @@ svg:hover{
   /* margin:5px ; */
 }
 
+.section-3{
+  /* background-color:  rgb(8, 52, 78); */
+  background-color:  rgba(7, 39, 57, 0.757);
+  background-color:  #0e2332e1;
+  background-color:  #103452;
+  
+  
+  /* background-color: rgb(134, 132, 132); */
+  /* background-color: rgb(207, 207, 207); */
+
+  height: 110vh;
+  width: 100%;
+  /* background: red; */
+  margin-top: 0;
+  padding-top: 0;
+}
 
 
 

@@ -4,7 +4,7 @@ function Project(){
     return(
     <div className="project-tile">
 
-<img src="../CG797 Line & Dot Pattern Design.jpg"></img>
+{/* <img src="../CG797 Line & Dot Pattern Design.jpg"></img> */}
 
         <div className="project-content">
         {/* <img src="images/picture.jpg" alt="Mountain"></img> */}
