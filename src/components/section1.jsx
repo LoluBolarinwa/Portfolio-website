@@ -2,7 +2,7 @@ import React from "react";
 
 function Section1() {
     return (
-        <div>
+        <div className="first-div">
             <nav className="navbar">
                 <ul className="navbar-list">
                     <li><a href="#Home">Home</a></li>
@@ -47,7 +47,7 @@ function Section1() {
                 <p className="name-intro">Hi, I'm</p>
                 <h1 className="name">Lolu Bolarinwa</h1>
                 {/* <h3>I am a <span>FrontEnd Developer</span></h3> */}
-                <h1>I am <span className="job-title">a Frontend Developer</span></h1>
+                <h1 className="job-title-intro">I am <span className="job-title">a Frontend Developer</span></h1>
                 {/* <p>Blockchain Developer</p> */}
 
                 </div>
@@ -59,8 +59,9 @@ function Section1() {
                 I am looking forward to working for a company that aims to build next generation of 
                 decentralized financial products.
                 </p>
-
                 </div>
+                <button className="cv-button">CV</button>
+                <button className="cv-button">Resume</button>
             </div>
 
             </section>    
