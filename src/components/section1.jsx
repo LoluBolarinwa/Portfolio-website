@@ -54,9 +54,9 @@ function Section1() {
 
                 <div className="description">
                 <p>
-                A skillful software engineer well versed in designing, building and deploying 
+                A (innovative)skillful software engineer well versed in designing, building and deploying 
                 modern frontend and blockchain architecture.
-                I have critical interest in working for a company that aims to build next generation of 
+                I am looking forward to working for a company that aims to build next generation of 
                 decentralized financial products.
                 </p>
 

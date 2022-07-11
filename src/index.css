@@ -130,10 +130,15 @@ li a{
   margin: 5px;
   /* padding-left: 4rem; */
   padding-right: 80px;
-  color: rgb(23, 146, 211);
+  /* color: rgb(23, 146, 211); */
+  color: white;
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+li a:hover{
+  color: #ff9900;
 }
 
 
@@ -144,7 +149,7 @@ li a{
   color:  rgb(254, 254, 255);
 
   font-family: 'Nunito', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   width: 70%;
   height: 95px;
   /* background: blue; */
@@ -206,7 +211,7 @@ svg:hover{
 
 .section-2{
   /* background-color: rgb(37, 37, 37); */
-  background-color: rgb(2, 82, 143);
+  background-color:  rgb(8, 52, 78);
   /* background-color: rgb(37, 37, 37); */
   /* height: 35rem; */
   height: 180vh;
