@@ -257,12 +257,13 @@ li a:hover{
   outline-color: #093049;
   margin: 0 150px ;
   border-radius: 30px;
-  width: 900px;
+  width: 700px;
+  height: 50vh;
+
 }
 
 .about-me{
   /* width: 75%; */
-  height: 50vh;
   font-size: 5rem;
   color: black;
   color: #05172c;
@@ -272,7 +273,7 @@ li a:hover{
   padding: 20px;
   /* background-color:  #776989; */
   font-weight: 800;
-  border: #0d4566;
+  /* border: #0d4566; */
   /* padding-top: 7rem; */
   font-size: 3rem;
 
@@ -426,5 +427,21 @@ svg:hover{
     /* background: white; */
     width: 80%;
 
+  }
+
+
+  .about-me-div{
+    /* background-color: lime; */
+    outline-style: solid;
+    outline-color: #093049;
+    margin: 0 70px ;
+    border-radius: 30px;
+    width: 380px;
+  height: 85vh;
+
+  }
+
+  .me-underline{
+    all: unset;
   }
 }
