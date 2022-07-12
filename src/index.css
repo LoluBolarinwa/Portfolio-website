@@ -251,15 +251,26 @@ li a:hover{
   /* padding-left: 50px; */
 }
 
+.about-me-div{
+  /* background-color: lime; */
+  outline-style: solid;
+  outline-color: #093049;
+  margin: 0 150px ;
+  border-radius: 30px;
+  width: 900px;
+}
 
 .about-me{
-  width: 75%;
-  font-size: 5rem;
+  /* width: 75%; */
   height: 50vh;
+  font-size: 5rem;
   color: black;
   color: #05172c;
   margin: 0 auto ;
-  background-color:  #776989;
+  /* outline-style: solid; */
+  /* outline-color: #093049; */
+  padding: 20px;
+  /* background-color:  #776989; */
   font-weight: 800;
   border: #0d4566;
   /* padding-top: 7rem; */
@@ -398,6 +409,7 @@ svg:hover{
     width: 100%;
   /* background: salmon; */
   font-size: 1rem;
+  margin-bottom: 4.5rem;
 
   }
 

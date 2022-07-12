@@ -7,7 +7,7 @@ function Section2(){
         <section>
         
             <div className="section-2">
-            <div className="Ab">
+            <div className="about-me-div">
             <h2 className="about-me">About <span className="me">Me.</span>
                 <span className="me-underline"></span>
                 <p className="about-text">
