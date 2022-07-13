@@ -13,12 +13,27 @@
 body {
   margin: 0;
   padding: 0;
-  color:  white; /* #d3e8ff;*/
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  color:  #fff; 
+  /* font-family: 'Bonheur Royale', cursive; */
+  /* font-family: 'Nunito', sans-serif; */
+
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: rgb(13,69,102);                                                    /*rgb(6, 31, 60)*/
+  background: radial-gradient(circle at 30% 15%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%);
+/* font-family: 'Cantarell', sans-serif; */
+/* font-family: 'Gentium Book Plus', serif; */
+/* font-family: 'Oxygen', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+  /* #d3e8ff;*/
+  
+  overflow-x: hidden;
+
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
+}
+
+*{
+  box-sizing: border-box;
 }
 
 body::-webkit-scrollbar{
@@ -28,16 +43,29 @@ body::-webkit-scrollbar{
   
 } */
 body::-webkit-scrollbar-track{
-  background: white;
+  background: #b7d8fb;       
+
 }
 
 body::-webkit-scrollbar-button{
-  background:salmon
+  /* background:#ff9900 */
 }
 
 body::-webkit-scrollbar-thumb{
-  background: #00353be6;
+  background: #0d4566;
+  /* border-radius: 20px;
+  height: 50px; */
 }
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::selection {
+  background-color: #916bbf;
+}
+
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -52,14 +80,15 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 /* background: rgb(13,69,102);  radial */
 /* background: radial-gradient(circle, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 100%); */
 
-background: rgb(13,69,102);                                                                 /*rgb(6, 31, 60)*/
-background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 18, 36) 80%);
+/* background: rgb(13,69,102);                                                                  */
+/*rgb(6, 31, 60)*/
+/* background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 18, 36) 80%); */
 
   /* background-color: #032b43; */
   /* font-size: 4rem; */
   /* height: 35rem; */
   height: 140vh;
-  width: 100%;
+  /* width: 100%; */
   /* background: red; */
   margin-top: 0;
   padding-top: 0;
@@ -77,7 +106,7 @@ background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 
   font-family: 'Bonheur Royale', cursive;
   margin-top: 0rem;
   /* margin-bottom: 2rem; */
-  /* background-color: aqua; */
+  background-color: aqua;
   /* text-transform: ; */
   /* font-style: italic; */
 }
@@ -89,7 +118,7 @@ background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 
   /* line-height: 0.9; */
   margin-bottom: 2rem;
   /* margin: 0; */
-  /* background-color: firebrick; */
+  background-color: firebrick;
 }
 
 .job-title{
@@ -97,20 +126,24 @@ background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 
   /* font-size: 3rem; */
   
 }
-
+/* .first-div{
+  margin: 0;
+  padding: 0;
+} */
 
 .navbar{
   /* background-color: #ffffff80; */
     /* background:rgba(0, 0, 0, 0.2); */
     -webkit-backdrop-filter: blur(5px);
-
+  /* margin-top: 0px; */
   width: 100vw;
   height: 1.2rem;
   font-size: 0.8rem;
   backdrop-filter: blur(6px);
-  padding: 1.3rem;
+  padding:1.8rem;
   position: fixed;
   /* border-bottom: 1px solid hsla(2,0%,100%,.1); */
+  /* background-color: rgba(0,0,0,0.1); */
 
   /* transition: background 0.2s ease-in-out 0s; */
   /* height: 5rem; */
@@ -118,20 +151,25 @@ background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 
    /* margin: 0; */
   /*padding: 0; */
 
-  /* display: flex; */
-  align-items:center;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items:center; */
+  align-items: flex-end;
 }
 
 .navbar-list{
   /* background: #020018e6; */
-  /* background-color: rgba(0,0,0,0.6); */
+  /* background-color: rgba(0,0,0,0.1); */
   /* display: inline-block; */
   list-style: none;
   padding: 0;
   margin: 0;
+  /* align-items: center; */
+  /* margin-top: 5px; */
+
   display: flex;
-  justify-content: flex-end;
-  /* justify-content: space-between; */
+  /* justify-content: flex-end; */
+  justify-content: space-between;
   /* justify-content: space-evenly; */
   /* align-items: flex-start; */
   /* align-items: flex-end; */
@@ -148,7 +186,9 @@ li a{
   color: white;
   letter-spacing: 1px;
   text-decoration: none;
-  text-transform: uppercase;
+  font-size: 0.9rem;
+
+  /* text-transform: uppercase; */
 }
 
 li a:hover{
@@ -161,6 +201,7 @@ li a:hover{
 
   /*color:  rgb(190, 196, 201); #d3e8ff;*/
   color:  rgb(254, 254, 255);
+  letter-spacing: 1px;
 
   font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
@@ -171,20 +212,26 @@ li a:hover{
 
 
 /* Button Design start */
+.cv-btn{
+  /* position: absolute; */
+}
 .cv-button{
-  margin: 0px 20px;
+  font-size: 1rem;
+  margin: 0px 20px ;
+  /* 0 30px; */
   position: relative;
   border: none;
   cursor: pointer;
+  /* width: 0 150px; */
   /* padding: 20px 50px; */
-  border-radius: 15px;
+  border-radius: 55px;
   border: 2px solid #fff;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 18px;
-  padding: 10px 25px;
+  font-size: 15px;
+  padding: 12px 15px;
   /* padding-right:10px; */
-  /* letter-spacing: 5px; */
+  letter-spacing: 2px;
   color: #fff;
   background-color: rgb(0,0,0,0);
   transition: border-color 0.4s, color 0.4s;
@@ -193,12 +240,13 @@ li a:hover{
 .cv-button::before{
   content: "";
   position: absolute;
-  top: -4px;
+  top: -3px;
   left: 80%;
   transform: skewX(130deg);
   display: block;
   height: 4px;
   width: 10px;
+  
   background-color: #093049;
   transition: left 0.4s, width 0.4s;
 }
@@ -206,7 +254,7 @@ li a:hover{
 .cv-button::after{
   content: "";
   position: absolute;
-  bottom: -4px;
+  bottom: -3px;
   left: 20%;
   transform: skewX(130deg);
   display: block;
@@ -221,40 +269,45 @@ li a:hover{
 .cv-button:hover{
   border-color: #ff9900;
   color: #ff9900;
+  
 }
 
 .cv-button:hover::before{
-  left:20%;
-  width: 20%; 
+  left:40%;
+  width: 15%; 
 }
 .cv-button:hover::after{
-  left:80%;
-  width: 20%; 
+  left:60%;
+  width: 15%; 
+  /* width: 15px; */
+
 }
 /* Button start End */
 
 /* Second Section Begins*/
-.section-2{
+.1section-2{
   /* background-color: rgb(37, 37, 37); */
   /* background-color:  rgb(8, 52, 78); */
   /* background-color:  rgba(7, 39, 57, 0.757); */
   /* background-color:  #0e2332e1; */
-  background-color:  #103452;
-  background-color: rgb(134, 132, 132);
+
+  /* background-color:  #103452; */
+  /* background-color: rgb(134, 132, 132); */
+  
   /* background-color: rgb(207, 207, 207); */
   /* background-color: rgb(44, 44, 44); */
   /* height: 35rem; */
-  height: 110vh;
-  width: 100%;
+  /* height: 110vh; */
+  /* width: 100%; */
   /* margin-top: 0; */
-  padding-top: 70px;
+  /* padding-top: 70px; */
   /* padding-left: 50px; */
 }
 
 .about-me-div{
   /* background-color: lime; */
   outline-style: solid;
-  outline-color: #093049;
+  outline-color: #b7d8fb;
   margin: 0 150px ;
   border-radius: 30px;
   width: 700px;
@@ -263,11 +316,15 @@ li a:hover{
 }
 
 .about-me{
+  /* font-family: 'Nunito', sans-serif; */
+
   /* width: 75%; */
   font-size: 5rem;
-  color: black;
-  color: #05172c;
+  /* color: black; */
+  color: #fff;
   margin: 0 auto ;
+  letter-spacing: 1px;
+
   /* outline-style: solid; */
   /* outline-color: #093049; */
   padding: 20px;
@@ -294,8 +351,9 @@ li a:hover{
 }
 
 .about-text{
+  
  /* font-size: 2rem;  */
- font-family: 'Nunito', sans-serif;
+ /* font-family: 'Nunito', sans-serif; */
   font-size: 1.1rem;
 }
 
@@ -337,7 +395,7 @@ h1{
   /* margin:5px ; */
 }
 
-.section-3{
+.2section-3{
   /* background-color:  rgb(8, 52, 78); */
   background-color:  rgba(7, 39, 57, 0.757);
   background-color:  #0e2332e1;

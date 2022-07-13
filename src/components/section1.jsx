@@ -42,7 +42,7 @@ function Section1() {
     </a>
 </div>
 
-            <div className="main">
+            <div className="main row">
                 <div>
                 <p className="name-intro">Hi, I'm</p>
                 <h1 className="name">Lolu Bolarinwa</h1>
@@ -60,8 +60,10 @@ function Section1() {
                 decentralized financial products.
                 </p>
                 </div>
-                <button className="cv-button">CV</button>
+                <div className="cv-btn">
+                <button className="cv-button">Cover Letter</button>
                 <button className="cv-button">Resume</button>
+                </div>
             </div>
 
             </section>    

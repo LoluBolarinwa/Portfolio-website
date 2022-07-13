@@ -7,7 +7,7 @@ function Section3(){
         <section>
         
             <div className="section-3">
-            d
+            
             <Project />
             <Project />
             <Project />
