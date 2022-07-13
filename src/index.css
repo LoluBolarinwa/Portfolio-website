@@ -212,16 +212,18 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   width: 70%;
   height: 95px;
   /* background: blue; */
+  position: relative;
+
 }
 
 
 /* Button Design start */
 .cv-btn{
-  /* position: absolute; */
+  /* position: relative; */
 }
 .cv-button{
   font-size: 1rem;
-  margin: 0px 20px ;
+  margin: 3rem 20px ;
   /* 0 30px; */
   position: relative;
   border: none;
@@ -498,6 +500,29 @@ svg:hover{
     /* background: white; */
     width: 80%;
 
+  }
+
+  .cv-button{
+    font-size: 0.7rem;
+    margin: 3rem 12px ;
+    font-size: 10px;
+
+        /* position: relative;
+    border: none;
+    cursor: pointer; */
+        /* width: 0 150px; */
+        /* padding: 20px 50px; */
+    /* border-radius: 55px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 12px 15px; */
+         /* padding-right:10px; */
+    /* letter-spacing: 2px;
+    color: #fff;
+    background-color: rgb(0,0,0,0);
+    transition: border-color 0.4s, color 0.4s; */
   }
 
 
