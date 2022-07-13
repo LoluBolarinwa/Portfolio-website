@@ -44,7 +44,7 @@ function Section1() {
 
             <div className="main row">
                 <div>
-                <p className="name-intro">Hi, I'm</p>
+                <p className="name-intro col-lg-4">Hi, I'm</p>
                 <h1 className="name">Lolu Bolarinwa</h1>
                 {/* <h3>I am a <span>FrontEnd Developer</span></h3> */}
                 <h1 className="job-title-intro">I am <span className="job-title">a Frontend Developer</span></h1>

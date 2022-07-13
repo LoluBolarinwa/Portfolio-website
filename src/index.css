@@ -71,61 +71,6 @@ body::selection {
     monospace;
 } */
 
-.section-1{
-  /* background-image: linear-gradient(to right, #092c42 , #032134); */
-  /* background-image: linear-gradient(to right, #0a2b50 , #01172f); */
-  /* background: rgb(13,69,102); //linear
-background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); */
-
-/* background: rgb(13,69,102);  radial */
-/* background: radial-gradient(circle, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 100%); */
-
-/* background: rgb(13,69,102);                                                                  */
-/*rgb(6, 31, 60)*/
-/* background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 18, 36) 80%); */
-
-  /* background-color: #032b43; */
-  /* font-size: 4rem; */
-  /* height: 35rem; */
-  height: 140vh;
-  /* width: 100%; */
-  /* background: red; */
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.main{
-  font-size: 2rem;
-  /* background: pink; */
-  width: 75%;
-  margin: 0 auto ;
-  padding-top: 7rem;
-}
-
-.name-intro{
-  font-family: 'Bonheur Royale', cursive;
-  margin-top: 0rem;
-  /* margin-bottom: 2rem; */
-  background-color: aqua;
-  /* text-transform: ; */
-  /* font-style: italic; */
-}
-
-.name{
-  font-size: 5rem;
-  /* text-transform: uppercase; */
-  font-weight: 500;
-  /* line-height: 0.9; */
-  margin-bottom: 2rem;
-  /* margin: 0; */
-  background-color: firebrick;
-}
-
-.job-title{
-  color: #ff9900;
-  /* font-size: 3rem; */
-  
-}
 /* .first-div{
   margin: 0;
   padding: 0;
@@ -142,6 +87,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   backdrop-filter: blur(6px);
   padding:1.8rem;
   position: fixed;
+  top: 0;
   /* border-bottom: 1px solid hsla(2,0%,100%,.1); */
   /* background-color: rgba(0,0,0,0.1); */
 
@@ -196,6 +142,64 @@ li a:hover{
 }
 
 
+.section-1{
+  /* background-image: linear-gradient(to right, #092c42 , #032134); */
+  /* background-image: linear-gradient(to right, #0a2b50 , #01172f); */
+  /* background: rgb(13,69,102); //linear
+background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); */
+
+/* background: rgb(13,69,102);  radial */
+/* background: radial-gradient(circle, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 100%); */
+
+/* background: rgb(13,69,102);                                                                  */
+/*rgb(6, 31, 60)*/
+/* background: radial-gradient(circle at 30% 25%, #0d4566 12%, #093049 20%, rgb(2, 18, 36) 80%); */
+
+  /* background-color: #032b43; */
+  /* font-size: 4rem; */
+  /* height: 35rem; */
+  height: 140vh;
+  /* width: 100%; */
+  /* background: red; */
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.main{
+  font-size: 2rem;
+  /* background: pink; */
+  width: 75%;
+  margin: 0 auto ;
+  padding-top: 7rem;
+}
+
+.name-intro{
+  font-family: 'Bonheur Royale', cursive;
+  margin-top: 0rem;
+  /* margin-bottom: 2rem; */
+  background-color: aqua;
+  /* text-transform: ; */
+  /* font-style: italic; */
+}
+
+.name{
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  /* text-transform: uppercase; */
+  /* font-weight: 500; */
+  /* line-height: 0.9; */
+  margin-bottom: 2rem;
+  /* margin: 0; */
+  background-color: firebrick;
+}
+
+.job-title{
+  color: #ff9900;
+  /* font-size: 3rem; */
+  
+}
+
 .description{
   /* font-family: Poppins,sans-serif !important; */
 
@@ -241,10 +245,10 @@ li a:hover{
   content: "";
   position: absolute;
   top: -3px;
-  left: 80%;
+  left: 70%;
   transform: skewX(130deg);
   display: block;
-  height: 4px;
+  height: 3px;
   width: 10px;
   
   background-color: #093049;
@@ -258,7 +262,7 @@ li a:hover{
   left: 20%;
   transform: skewX(130deg);
   display: block;
-  height: 4px;
+  height: 3px;
   width: 10px;
   /* background-color: #121212; */
   background-color: #093049;
@@ -316,10 +320,10 @@ li a:hover{
 }
 
 .about-me{
-  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Inter', sans-serif;
 
   /* width: 75%; */
-  font-size: 5rem;
+  /* font-size: 5rem; */
   /* color: black; */
   color: #fff;
   margin: 0 auto ;
@@ -351,10 +355,19 @@ li a:hover{
 }
 
 .about-text{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  color:  rgb(254, 254, 255);
+  letter-spacing: 1px;
+
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  
+  /* letter-spacing: 1px; */
   
  /* font-size: 2rem;  */
  /* font-family: 'Nunito', sans-serif; */
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
 }
 
 h1{
