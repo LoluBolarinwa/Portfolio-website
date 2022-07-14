@@ -18,8 +18,8 @@ function Section2(){
                  This store of value was completely new to me and made me curious. 
                  So I researched about the type of internet architecture that kept 
                  it running, and found [Blockchain] at its heart.
-                This led me down this web3 rabbit hole.
-                about [led me into] 
+                This led me down this web3 rabbit hole. 
+                about[led me into] 
 
                 about how the architecture which. So I researched it.
                 facilitates the which eventually led me down this web3 rabbit hole.
