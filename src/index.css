@@ -158,7 +158,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   /* background-color: #032b43; */
   /* font-size: 4rem; */
   /* height: 35rem; */
-  height: 140vh;
+  /* height: 140vh; */
   /* width: 100%; */
   /* background: red; */
   margin-top: 0;
@@ -223,7 +223,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 }
 .cv-button{
   font-size: 1rem;
-  margin: 3rem 20px ;
+  margin: 0.5rem 20px ;
   /* 0 30px; */
   position: relative;
   border: none;
@@ -291,7 +291,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 /* Button start End */
 
 /* Second Section Begins*/
-.1section-2{
+.section-2{
   /* background-color: rgb(37, 37, 37); */
   /* background-color:  rgb(8, 52, 78); */
   /* background-color:  rgba(7, 39, 57, 0.757); */
@@ -305,10 +305,12 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   /* height: 35rem; */
   /* height: 110vh; */
   /* width: 100%; */
-  /* margin-top: 0; */
+  margin-top: 5rem;
   /* padding-top: 70px; */
   /* padding-left: 50px; */
 }
+
+
 
 .about-me-div{
   /* background-color: lime; */
