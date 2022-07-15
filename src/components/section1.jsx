@@ -65,7 +65,11 @@ function Section1() {
                 <button className="cv-button">Resume</button>
                 </div>
             </div>
-
+<p>write out icons for tool stack</p>
+<p>make about section responsive</p>
+<p>resize name to fit responsive length</p>
+<p>continue web3 project from where you stopped -crypto currency with a website for it</p>
+<p>-and take react modules</p>
 
             </section>    
             
