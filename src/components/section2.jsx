@@ -13,7 +13,7 @@ function Section2(){
                 <p className="about-text">
                 Hi there, welcome to my Portfolio. [my] Journey into web3 
                 began when I cluelessly bought bitcoin in early winter
-                 of 2017 [and]forgot about it. I[later] remembered in January of 
+                 of 2017 and]forgot about it. I[later] remembered in January of 
                  2021 and sold it at an appreciated value.
                  This store of value was completely new to me and made me curious. 
                  So I researched about the type of internet architecture that kept 
