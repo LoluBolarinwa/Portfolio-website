@@ -1,4 +1,7 @@
 import React from "react";
+import Icon from "./icons.jsx";
+
+import { MdAccessibilityNew } from 'react-icons/fa';
 
 function Section1() {
     return (
@@ -77,6 +80,14 @@ function Section1() {
 
             <section className="section-2">
             {/* <div className="section-2"> */}
+
+<div>
+    <div>
+        <Icon />
+        <MdAccessibilityNew />
+    </div>
+</div>
+
             <div className="about-me-div">
             <h2 className="about-me">About <span className="me">Me.</span>
                 <span className="me-underline"></span>
