@@ -4,6 +4,8 @@ import Icon from "./icons.jsx";
 import { MdAccessibilityNew } from 'react-icons/md';
 import { SiHtml5 } from 'react-icons/si';
 import { SiCss3 } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { SiReact } from 'react-icons/si';
 // import { MdAccessibilityNew } from 'react-icons/md';
 // import { MdAccessibilityNew } from 'react-icons/md';
 // import { MdAccessibilityNew } from 'react-icons/md';
@@ -88,13 +90,13 @@ function Section1() {
             {/* <div className="section-2"> */}
 
 <div>
-    <div>
-        <Icon className="icon" />
+    <div className="icons">
+        {/* <Icon className="icon" /> */}
         <MdAccessibilityNew className=""/>
         <SiHtml5 className=""/>
         <SiCss3 className=""/>
-        <MdAccessibilityNew className=""/>
-        <MdAccessibilityNew className=""/>
+        <SiJavascript className=""/>
+        <SiReact className=""/>
         <MdAccessibilityNew className=""/>
         <MdAccessibilityNew className=""/>
         <MdAccessibilityNew className=""/>
