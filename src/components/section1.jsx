@@ -2,6 +2,12 @@ import React from "react";
 import Icon from "./icons.jsx";
 
 import { MdAccessibilityNew } from 'react-icons/md';
+import { SiHtml5 } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
+// import { MdAccessibilityNew } from 'react-icons/md';
+// import { MdAccessibilityNew } from 'react-icons/md';
+// import { MdAccessibilityNew } from 'react-icons/md';
+// import { MdAccessibilityNew } from 'react-icons/md';
 
 function Section1() {
     return (
@@ -85,8 +91,15 @@ function Section1() {
     <div>
         <Icon className="icon" />
         <MdAccessibilityNew className=""/>
+        <SiHtml5 className=""/>
+        <SiCss3 className=""/>
+        <MdAccessibilityNew className=""/>
+        <MdAccessibilityNew className=""/>
+        <MdAccessibilityNew className=""/>
+        <MdAccessibilityNew className=""/>
+        <MdAccessibilityNew className=""/>
 
-        <img src="../svg icons/css BLue-svgrepo-com.jpg">
+        {/* <img src="../svg icons/css BLue-svgrepo-com.jpg"> */}
     </div>
 </div>
 
