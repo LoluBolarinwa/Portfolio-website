@@ -75,7 +75,10 @@ body::selection {
   margin: 0;
   padding: 0;
 } */
-
+.icon{
+  width:2rem;
+  height:2rem;
+}
 .navbar{
   /* background-color: #ffffff80; */
     /* background:rgba(0, 0, 0, 0.2); */

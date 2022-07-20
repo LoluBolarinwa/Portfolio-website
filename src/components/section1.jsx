@@ -1,7 +1,7 @@
 import React from "react";
 import Icon from "./icons.jsx";
 
-import { MdAccessibilityNew } from 'react-icons/fa';
+import { MdAccessibilityNew } from 'react-icons/md';
 
 function Section1() {
     return (
@@ -83,8 +83,10 @@ function Section1() {
 
 <div>
     <div>
-        <Icon />
-        <MdAccessibilityNew />
+        <Icon className="icon" />
+        <MdAccessibilityNew className=""/>
+
+        {/* <img src="../svg icons/css BLue-svgrepo-com.jpg"> */}
     </div>
 </div>
 
