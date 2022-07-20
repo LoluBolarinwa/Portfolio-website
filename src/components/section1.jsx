@@ -86,7 +86,7 @@ function Section1() {
         <Icon className="icon" />
         <MdAccessibilityNew className=""/>
 
-        {/* <img src="../svg icons/css BLue-svgrepo-com.jpg"> */}
+        <img src="../svg icons/css BLue-svgrepo-com.jpg">
     </div>
 </div>
 
