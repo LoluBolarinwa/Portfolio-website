@@ -20,6 +20,8 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: rgb(13,69,102);                                                    /*rgb(6, 31, 60)*/
   background: radial-gradient(circle at 30% 15%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%);
+  /* background: radial-gradient(circle at 30% 15%, #0a3853 7%, #041f2f 15%, rgb(0, 4, 9) 80%); */
+
 /* font-family: 'Cantarell', sans-serif; */
 /* font-family: 'Gentium Book Plus', serif; */
 /* font-family: 'Oxygen', sans-serif; */
@@ -48,13 +50,14 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-button{
-  /* background:#ff9900 */
+  background:#ff9900;
+  height:15px;
 }
 
 body::-webkit-scrollbar-thumb{
   background: #0d4566;
-  /* border-radius: 20px;
-  height: 50px; */
+  border-radius: 20px;
+  height: 50px;
 }
 
 body::-webkit-scrollbar {
