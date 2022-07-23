@@ -83,15 +83,6 @@ function Section1() {
     <div className="icons">
     
         <Icon className="icon" />
-        {/* <MdAccessibilityNew className=""/>
-        <SiHtml5 className=""/>
-        <SiCss3 className=""/>
-        <SiJavascript className=""/>
-        <SiReact className=""/> */}
-        
-        {/* <MdAccessibilityNew className=""/>
-        <MdAccessibilityNew className=""/>
-        <MdAccessibilityNew className=""/> */}
 
     </div>
 </div>
