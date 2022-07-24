@@ -84,8 +84,8 @@ function Section1() {
     <div className="icons">
     
         {/* <Icon className="icon" /> */}
-        <Solidity />
         <Css />
+        <Solidity />
         <Git />
         <Html />
         <Javascript />
