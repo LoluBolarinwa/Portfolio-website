@@ -1,5 +1,6 @@
 import React from "react";
-import Icon from "./icons.jsx";
+import /*Icon,*/ {Solidity, Css, Git, Html, Javascript, Npm} from "./icons.jsx";
+
 
 function Section1() {
     return (
@@ -82,8 +83,13 @@ function Section1() {
 <div>
     <div className="icons">
     
-        <Icon className="icon" />
-
+        {/* <Icon className="icon" /> */}
+        <Solidity />
+        <Css />
+        <Git />
+        <Html />
+        <Javascript />
+        <Npm />
     </div>
 </div>
 
