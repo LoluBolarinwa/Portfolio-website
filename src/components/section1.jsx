@@ -1,5 +1,5 @@
 import React from "react";
-import /*Icon,*/ {Solidity, Css, Git, Html, Javascript, Npm} from "./icons.jsx";
+import /*Icon,*/ {ReactIcon, Solidity, Css, Git, Html, Javascript, Npm} from "./icons.jsx";
 
 
 function Section1() {
@@ -67,11 +67,6 @@ function Section1() {
                 <button className="cv-button">Resume</button>
                 </div>
             </div>
-<p>write out icons for tool stack</p>
-<p>make about section responsive</p>
-<p>resize name to fit responsive length</p>
-<p>continue web3 project from where you stopped -crypto currency with a website for it</p>
-<p>-and take react modules</p>
 
             </section>    
             
@@ -80,15 +75,16 @@ function Section1() {
             <section className="section-2">
             {/* <div className="section-2"> */}
 {/* <Icon /> */}
-<div>
+<div className="skill-tools">
     <div className="icons">
     
         {/* <Icon className="icon" /> */}
-        <Css />
-        <Solidity />
-        <Git />
         <Html />
+        <Css />
         <Javascript />
+        <ReactIcon />
+        <Git />
+        <Solidity />
         <Npm />
     </div>
 </div>

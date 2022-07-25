@@ -29,7 +29,7 @@ body {
   /* #d3e8ff;*/
   
   overflow-x: hidden;
-
+/* display:flex; */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
@@ -215,7 +215,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   width: 70%;
   height: 100%;
   /* background: blue; */
-  position: relative;
+  /* position: relative; */
 
 }
 
@@ -313,6 +313,21 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   /* padding-left: 50px; */
 }
 
+.skill-tools{
+  /* display: flex; */
+  width: 75%;
+  /* margin: 0 auto ; */
+  /* padding-top: 7rem; */
+}
+
+.icons{
+  display: flex;
+  width: 75%;
+  margin: 0 auto 2rem ;
+  /* padding-top: 7rem; */
+  /* width:2rem; */
+  /* height:2rem; */
+}
 
 
 .about-me-div{
@@ -433,10 +448,6 @@ h1{
 /* } */
 
 
-.icon{
-  width:2rem;
-  height: 5rem;
-}
 
 
 
@@ -536,6 +547,32 @@ svg:hover{
     transition: border-color 0.4s, color 0.4s; */
   }
 
+  .skill-tools{
+    /* display: flex; */
+    width: 100%;
+    /* margin: 0 auto ; */
+    /* padding-top: 7rem; */
+  }
+
+  .icons{
+    display: flex;
+    width: 85%;
+    margin: 0 auto 1rem ;
+    /* padding-top: 7rem; */
+    /* width:2rem; */
+    /* height:2rem; */
+  }
+  
+  .solidity-icon{
+    /* fill: #ff9900; */
+    width: 58px;
+    height:58px;
+    margin: 18px auto;
+    padding: 0;
+  }
+  .solidity-icon:hover{
+    fill: #ff9900;
+  }
 
   .about-me-div{
     /* background-color: lime; */
