@@ -316,6 +316,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 .skill-tools{
   /* display: flex; */
   width: 75%;
+  margin-top:0rem;
   /* margin: 0 auto ; */
   /* padding-top: 7rem; */
 }
@@ -328,7 +329,15 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   /* width:2rem; */
   /* height:2rem; */
 }
+.solidity-icon:hover{
+  fill: #ff9900;
+}
 
+.about{
+  width: 100%;
+  /* margin: 0 auto 2rem ; */
+  margin-bottom: 2rem;
+}
 
 .about-me-div{
   /* background-color: lime; */
@@ -337,7 +346,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   margin: 0 150px ;
   border-radius: 30px;
   width: 700px;
-  height: 50vh;
+  height: auto;
 
 }
 
@@ -350,7 +359,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   color: #fff;
   margin: 0 auto ;
   letter-spacing: 1px;
-
+  height: auto;
   /* outline-style: solid; */
   /* outline-color: #093049; */
   padding: 20px;
@@ -381,7 +390,8 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   font-size: 1.1rem;
   color:  rgb(254, 254, 255);
   letter-spacing: 1px;
-
+  height: auto;
+  text-align: justify;
   font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
   
