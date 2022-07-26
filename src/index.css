@@ -51,7 +51,7 @@ body::-webkit-scrollbar-track{
 
 body::-webkit-scrollbar-button{
   background:#ff9900;
-  height:15px;
+  height:12px;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -214,6 +214,8 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   font-size: 1.1rem;
   width: 70%;
   height: 100%;
+  height: auto;
+  text-align: justify;
   /* background: blue; */
   /* position: relative; */
 
@@ -308,7 +310,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   /* height: 35rem; */
   /* height: 110vh; */
   /* width: 100%; */
-  margin-top: 5rem;
+  margin-top: 2rem;
   /* padding-top: 70px; */
   /* padding-left: 50px; */
 }
@@ -316,7 +318,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 .skill-tools{
   /* display: flex; */
   width: 75%;
-  margin-top:0rem;
+  /* margin-top:0rem; */
   /* margin: 0 auto ; */
   /* padding-top: 7rem; */
 }
@@ -359,10 +361,12 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   color: #fff;
   margin: 0 auto ;
   letter-spacing: 1px;
-  height: auto;
+  /* height: auto; */
   /* outline-style: solid; */
   /* outline-color: #093049; */
-  padding: 20px;
+  padding: 25px;
+  padding-left: 45px;
+  padding-bottom: 0;
   /* background-color:  #776989; */
   font-weight: 800;
   /* border: #0d4566; */
@@ -391,6 +395,9 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   color:  rgb(254, 254, 255);
   letter-spacing: 1px;
   height: auto;
+  padding: 25px;
+  padding-top: 8px;
+
   text-align: justify;
   font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
@@ -587,15 +594,21 @@ svg:hover{
   .about-me-div{
     /* background-color: lime; */
     outline-style: solid;
-    outline-color: #093049;
+    outline-color: #b7d8fb;
     margin: 0 70px ;
     border-radius: 30px;
     width: 380px;
-  height: 85vh;
+  /* height: 85vh; */
+  height: auto;
+
 
   }
 
-  .me-underline{
+  /* .me-underline{
     all: unset;
+  } */
+
+  .about{
+  margin-bottom: 2rem;
   }
 }
