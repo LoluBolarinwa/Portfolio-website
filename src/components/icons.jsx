@@ -10,9 +10,10 @@ const Icon=()=>{
     <path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z" />
 </svg>
 //</div>
-
     )
 }
+
+
 
 const Solidity=()=>{
     return(

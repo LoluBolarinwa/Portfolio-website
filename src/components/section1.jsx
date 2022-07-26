@@ -43,24 +43,23 @@ function Section1() {
             
             {/* </main> */}
 
-            <section className="section-2">
-            {/* <div className="section-2"> */}
-{/* <Icon /> */}
-<div className="skill-tools">
-    <div className="icons">
+        <section className="section-2">
+   
+            <div className="skill-tools">
+                <div className="icons">
     
         {/* <Icon className="icon" /> */}
-        <Html />
-        <Css />
-        <Javascript />
-        <ReactIcon />
-        <Git />
-        <Solidity />
-        <Npm />
-    </div>
-</div>
+                    <Html />
+                    <Css />
+                    <Javascript />
+                    <ReactIcon />
+                    <Git />
+                    <Solidity />
+                    <Npm />
+                </div>
+            </div>
 
-<Section2 />
+            <Section2 />
 
             {/* </div> */}
             </section>
