@@ -341,6 +341,16 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   }
 }
 
+/* For React Icon Animation */
+@keyframes react-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -631,11 +641,4 @@ svg:hover{
   }
 }
 
-@keyframes react-icon-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
