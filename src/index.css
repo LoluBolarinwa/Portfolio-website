@@ -364,9 +364,11 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 
 
 .about{
-  width: 100%;
+  width: 80%;
   /* margin: 0 auto 2rem ; */
   margin-bottom: 2rem;
+  /* background-color: lemonchiffon; */
+
 }
 
 .about-me-div{
@@ -375,7 +377,8 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   outline-color: #b7d8fb;
   margin: 0 150px ;
   border-radius: 30px;
-  width: 700px;
+  /* width: 700px; */
+  width:65%;
   height: auto;
 
 }
@@ -423,7 +426,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   color:  rgb(254, 254, 255);
   letter-spacing: 1px;
   height: auto;
-  padding: 25px;
+  padding: 35px;
   padding-top: 8px;
 
   text-align: justify;
@@ -558,6 +561,18 @@ svg:hover{
     font-size: 1.7rem;
   }
 
+  .name{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    /* text-transform: uppercase; */
+    /* font-weight: 500; */
+    /* line-height: 0.9; */
+    margin-bottom: 2rem;
+    /* margin: 0; */
+    /* background-color: firebrick; */
+  }
+
   .job-title-intro, .job-title {
   font-size: 2rem;
     /* color: salmon; */
@@ -619,6 +634,10 @@ svg:hover{
     fill: #ff9900;
   }
 
+  .about{
+    margin-bottom: 2rem;
+    }
+
   .about-me-div{
     /* background-color: lime; */
     outline-style: solid;
@@ -636,9 +655,7 @@ svg:hover{
     all: unset;
   } */
 
-  .about{
-  margin-bottom: 2rem;
-  }
+  
 }
 
 

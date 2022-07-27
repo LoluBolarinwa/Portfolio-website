@@ -7,14 +7,13 @@ import Section2 from "./section2.jsx"
 
 function Section1() {
     return (
-        <div className="first-div">
+    <div className="first-div">
             <Navigation />
             {/* <main> */}
-            <section className="section-1">
+            
+        <section className="section-1">
+            <Socials /> 
 
-        <Socials /> 
-
-        
             <div className="main row">
                 <div>
                 <p className="name-intro">Hi, I'm</p>
@@ -39,7 +38,7 @@ function Section1() {
                 </div>
             </div>
 
-            </section>    
+        </section>    
             
             {/* </main> */}
 
@@ -63,7 +62,7 @@ function Section1() {
 
             {/* </div> */}
             </section>
-        </div>
+    </div>
     )
 }
 
