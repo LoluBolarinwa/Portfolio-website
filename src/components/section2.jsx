@@ -41,15 +41,23 @@ function Section2(){
                 </h2>
                 
                     <p className="about-text">
-                    Hi, my name is Lolu. Welcome to my Portfolio! <br></br>My journey into web3 began early winter of 2017 when I cluelessly bought bitcoin
-                    and forgot about it. I later remembered in 2021 and converted it to fiat. This opened my eyes to a store of value that was completely new to me. It made me curious.
-                    So I researched about the type of internet architecture that kept it secure and running, and found Blockchain in the middle of it all.
-                    This led me down this web3 rabbit hole.
-                    <p>
-                       Over the past year, I have taken the traditional route of learning web2 technology stack intensively before diving into web3, so as to lay a solid foundation for the 
-                       strucure of knowledge I will subsequently acquire about this evergrowing space.  
-                    </p>
-
+                        <p>
+                        Hi, my name is Lolu. Welcome to my Portfolio! <br></br>
+                        I build frontend applications using HTML, CSS, JAVASCRIPT and REACT.<br></br>
+                        While the underlaying blockchain architecture is built using SOLDITY, ETHERS.js and HARDHAT. 
+                        With an emphasis on migrating smart contracts to the Zero-Knowledge EVM.
+                        </p>
+                        <p>
+                        My journey into web3 began early winter of 2017 when I cluelessly bought bitcoin
+                        and forgot about it. I later remembered in 2021 and converted it to fiat. This opened my eyes to a store of value that was completely new to me. It made me curious.
+                        So I researched about the type of internet architecture that kept it secure and running, and found Blockchain in the middle of it all.
+                        This led me down the web3 rabbit hole.
+                        </p>
+                        <p>
+                        Over the past year, I have taken the traditional route of learning web2 technology stack intensively before diving into web3, so as to lay a solid foundation for the 
+                        strucure of knowledge I will subsequently acquire about this evergrowing space.
+                        </p>
+                       
 
                     </p>
             
