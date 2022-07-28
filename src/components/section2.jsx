@@ -41,14 +41,15 @@ function Section2(){
                 </h2>
                 
                     <p className="about-text">
-                    Hi there, welcome to my Portfolio. [my] Journey into web3 
-                    began in early winter of 2017 when I cluelessly bought bitcoin 
-                    and forgot about it. I[later] remembered in January of 
-                    2021 and sold it.
-                    This store of value was completely new to me and made me curious. 
-                    So I researched about the type of internet architecture that kept 
-                    it secure and running, and found Blockchain in the middle of it all.
+                    Hi, my name is Lolu. Welcome to my Portfolio! <br></br>My journey into web3 began early winter of 2017 when I cluelessly bought bitcoin
+                    and forgot about it. I later remembered in 2021 and converted it to fiat. This opened my eyes to a store of value that was completely new to me. It made me curious.
+                    So I researched about the type of internet architecture that kept it secure and running, and found Blockchain in the middle of it all.
                     This led me down this web3 rabbit hole.
+                    <p>
+                       Over the past year, I have taken the traditional route of learning web2 technology stack intensively before diving into web3, so as to lay a solid foundation for the 
+                       strucure of knowledge I will subsequently acquire about this evergrowing space.  
+                    </p>
+
 
                     </p>
             
