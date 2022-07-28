@@ -482,11 +482,16 @@ h1{
 
 .svg-name{
   /* height: auto; */
-  stroke: #b7d8fb;
+  stroke: #fff;
   font-size: 150px;
   /* font-weight: 700; */
   stroke-width: 2;
-  animation: nameAnimation 7s;
+  animation: nameAnimation 6s;
+}
+
+#text-svg{
+  padding-left: 10rem;
+  /* transform: ; */
 }
 
 @keyframes nameAnimation {
@@ -545,12 +550,8 @@ h1{
 }
 .svg-socials svg:hover{
   color: #ff9900;
-
 }
 
-.twit{
-  color:green;
-}
 /* .header__container {
   height: 100%;
   position: relative;
@@ -602,6 +603,25 @@ h1{
     /* margin: 0; */
     /* background-color: firebrick; */
   }
+
+  .svg-name{
+    /* height: auto; */
+    stroke: #fff;
+    font-size: 205px;
+    /* font-weight: 700; */
+    stroke-width: 2;
+    animation: nameAnimation 6s;
+  }
+  
+  @keyframes nameAnimation {
+    0% {
+      stroke-dasharray: 0 50%;
+    }
+    100% {
+      stroke-dasharray: 50% 0;
+    }
+  }
+  
 
   .job-title-intro, .job-title {
   font-size: 2rem;

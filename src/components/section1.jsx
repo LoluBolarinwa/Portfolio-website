@@ -17,8 +17,9 @@ function Section1() {
                 <div>
                 <p className="name-intro">Hi, I'm</p>
                 {/* <h1 className="name">Lolu Bolarinwa</h1> */}
-            <svg className="svg-name" viewBox="0 0 1350 600" height="400px">
-                <text x="50%" y="50%" fill="transparent" textAnchor="middle">Lolu Bolarinwa</text>
+            <svg className="svg-name" fill="#ffd600" viewBox="-150 0 1800 250" >
+            {/* // height="1em" width="1em"> */}
+                <text id="text-svg" x="35%" y="65%"  fill="transparent" textAnchor="middle">Lolu Bolarinwa</text>
             </svg>
                 {/* <h3>I am a <span>FrontEnd Developer</span></h3> */}
                 <h1 className="job-title-intro">I am <span className="job-title">a Frontend Developer</span></h1>
