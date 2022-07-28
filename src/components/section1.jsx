@@ -9,7 +9,6 @@ function Section1() {
     return (
     <div className="first-div">
             <Navigation />
-            {/* <main> */}
             
         <section className="section-1">
             <Socials /> 
@@ -40,7 +39,6 @@ function Section1() {
 
         </section>    
             
-            {/* </main> */}
 
         <section className="section-2">
    
