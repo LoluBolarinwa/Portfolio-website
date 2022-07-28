@@ -169,7 +169,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 }
 
 .main{
-  font-size: 2rem;
+  /* font-size: 2rem; */
   /* background: pink; */
   width: 75%;
   margin: 0 auto ;
@@ -179,6 +179,8 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 .name-intro{
   font-family: 'Bonheur Royale', cursive;
   margin-top: 0rem;
+  font-size: 2rem;
+
   /* margin-bottom: 2rem; */
   /* background-color: aqua; */
   /* text-transform: ; */
@@ -478,6 +480,24 @@ h1{
   /* margin:5px ; */
 }
 
+.svg-name{
+  /* height: auto; */
+  stroke: #b7d8fb;
+  font-size: 150px;
+  /* font-weight: 700; */
+  stroke-width: 2;
+  animation: nameAnimation 7s;
+}
+
+@keyframes nameAnimation {
+  0% {
+    stroke-dasharray: 0 50%;
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+  }
+}
+
 /* .2section-3{ */
   /* background-color:  rgb(8, 52, 78); */
   /* background-color:  rgba(7, 39, 57, 0.757); */
@@ -503,7 +523,7 @@ h1{
 
 
 /* Floating Social Icons */
-.header__socials {
+.svg-socials {
   /* background: moccasin; */
   color: white;
   align-items: center;
@@ -520,19 +540,23 @@ h1{
   /* position: absolute; */
 }
 
-svg{
+.svg-socials svg{
   color: white;
 }
-svg:hover{
+.svg-socials svg:hover{
   color: #ff9900;
 
+}
+
+.twit{
+  color:green;
 }
 /* .header__container {
   height: 100%;
   position: relative;
   text-align: center;
 } */
-.header__socials:after, .header__socials:before {
+.svg-socials:after, .svg-socials:before {
   background: var(--color-white);
   content: "";
   height: 5rem;

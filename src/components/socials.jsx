@@ -2,7 +2,7 @@ import React from "react";
 
 const Socials=()=>{
     return(
-    <div className="header__socials">
+    <div className="svg-socials">
         <a rel="noreferrer" href="https://twitter.com/Lolu_Bolarinwa" target="_blank">
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg">
             <path

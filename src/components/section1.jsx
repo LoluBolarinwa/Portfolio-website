@@ -16,7 +16,10 @@ function Section1() {
             <div className="main row">
                 <div>
                 <p className="name-intro">Hi, I'm</p>
-                <h1 className="name">Lolu Bolarinwa</h1>
+                {/* <h1 className="name">Lolu Bolarinwa</h1> */}
+            <svg className="svg-name" viewBox="0 0 1350 600" height="400px">
+                <text x="50%" y="50%" fill="transparent" textAnchor="middle">Lolu Bolarinwa</text>
+            </svg>
                 {/* <h3>I am a <span>FrontEnd Developer</span></h3> */}
                 <h1 className="job-title-intro">I am <span className="job-title">a Frontend Developer</span></h1>
                 {/* <p>Blockchain Developer</p> */}
