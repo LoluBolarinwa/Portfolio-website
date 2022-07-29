@@ -614,7 +614,7 @@ h1{
     font-size: 215px;
     /* font-weight: 700; */
     stroke-width: 2;
-    animation: nameAnimation 6s;
+    animation: nameAnimation 8s;
   }
   
   @keyframes nameAnimation {
