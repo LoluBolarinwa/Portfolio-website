@@ -225,9 +225,10 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 
 
 /* Button Design start */
-.cv-btn{
+/* .cv-btn{ */
   /* position: relative; */
-}
+/* } */
+
 .cv-button{
   font-size: 1rem;
   margin: 0.5rem 20px ;
@@ -318,7 +319,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 }
 
 .skill-tools{
-  /* display: flex; */
+  display: flex;
   width: 75%;
   /* margin-top:0rem; */
   /* margin: 0 auto ; */
@@ -329,9 +330,12 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   display: flex;
   width: 75%;
   margin: 0 auto 2rem ;
+  justify-content: space-between;
+
   /* padding-top: 7rem; */
   /* width:2rem; */
   /* height:2rem; */
+  padding:0 2rem;
 }
 .solidity-icon:hover{
   fill: #ff9900;
@@ -791,7 +795,12 @@ h1{
 .svg-socials svg:hover{
   color: #ff9900;
 } */
-  
+
+.socials-mobile{
+  visibility: visible;
+  /* all: unset; */
+}
+
 }
 
 

@@ -41,8 +41,7 @@ function Section1() {
                 </div>
             </div>
 
-        </section>    
-            
+        </section>                
 
         <section className="section-2">
    
