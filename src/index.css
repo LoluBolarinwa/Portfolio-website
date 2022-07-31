@@ -335,7 +335,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   /* padding-top: 7rem; */
   /* width:2rem; */
   /* height:2rem; */
-  padding:0 2rem;
+  /* padding:0 1rem; */
 }
 .solidity-icon:hover{
   fill: #ff9900;
@@ -490,6 +490,7 @@ h1{
   font-size: 150px;
   /* font-weight: 700; */
   stroke-width: 2;
+  /* stroke-dasharray:10,10"; */
   animation: nameAnimation 6s;
 }
 
@@ -506,6 +507,13 @@ h1{
     stroke-dasharray: 50% 0;
   }
 }
+
+/* 0% { [nameAnimation 16s]
+  stroke-dasharray: 50, 50;
+}
+100% {
+  stroke-dasharray: 100%;
+} */
 
 /* .2section-3{ */
   /* background-color:  rgb(8, 52, 78); */
