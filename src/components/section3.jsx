@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./project-tile";
+import Project from "./project-section";
 
 
 function Section3(){

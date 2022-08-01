@@ -1,8 +1,9 @@
 import React from "react";
-import Navigation from "./navigation.jsx"
+import Navigation from "./navigation.jsx";
 import /*Icon,*/ {ReactIcon, Solidity, Css, Git, Html, Javascript, Npm} from "./icons.jsx";
-import Socials from "./socials.jsx"
-import Section2 from "./section2.jsx"
+import Socials from "./socials.jsx";
+import Section2 from "./section2.jsx";
+import Project from "./project-section.jsx";
 
 
 function Section1() {
@@ -84,6 +85,8 @@ function Section1() {
                 </a>
             </div>
         </div>
+
+        <Project />
     </div>
     )
 }
