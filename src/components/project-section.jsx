@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project(){
+function Projects(){
     return(
         <div id="project-div">
             <div className="project-parentDiv">
@@ -20,4 +20,4 @@ function Project(){
     )
 }
 
-export default Project;
+export default Projects;
