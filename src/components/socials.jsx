@@ -31,7 +31,7 @@ const Socials=()=>{
     )
 }
 
-const SocialM=()=>{
+const Socialmobile=()=>{
     return(
         <div id="socials-mobile">
             <div className="socials-mobile">
@@ -57,4 +57,4 @@ const SocialM=()=>{
 }
 
 export default Socials;
-export {SocialM};
+export {Socialmobile};

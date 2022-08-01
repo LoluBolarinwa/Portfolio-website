@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./navigation.jsx";
 import /*Icon,*/ {ReactIcon, Solidity, Css, Git, Html, Javascript, Npm} from "./icons.jsx";
-import {Socials, SocialM} from "./socials.jsx";
+import Socials, { Socialmobile } from "./socials.jsx";
 import Section2 from "./section2.jsx";
 import Projects from "./project-section.jsx";
 
@@ -65,7 +65,7 @@ function Section1() {
             {/* </div> */}
             </section>
 
-        <SocialM />
+        <Socialmobile />
 
         <Projects />
     </div>
