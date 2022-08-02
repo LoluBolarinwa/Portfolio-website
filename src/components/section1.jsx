@@ -63,6 +63,8 @@ function Section1() {
             <Section2 />
 
             {/* </div> */}
+
+            
             </section>
 
         <Socialmobile />

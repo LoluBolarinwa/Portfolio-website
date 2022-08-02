@@ -45,22 +45,7 @@ function Section2(){
             <Project />
             <Project /> */}
 
-            </div>
-            
-{/* <div id="project-div">
-            <div className="project-parentDiv">
-                <div className="project-1">
-                </div>
-                <div className="project-2">
-                </div>
-                <div className="project-3">
-                </div>
-                <div className="project-4">
-                </div>
-
-                
-            </div>
-</div> */}
+            </div>            
         </div>   
     )
 }
