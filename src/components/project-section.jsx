@@ -1,29 +1,29 @@
 import React from "react";
 
-const faders = document.querySelectorAll('.fade-in');
+// const faders = document.querySelectorAll('. ');
 
 
-const appearOptions = {
-  threshold: 1,
-  rootmargin: "0px 0px -100px 0px"
-};
+// const appearOptions = {
+//   threshold: 1,
+//   rootmargin: "0px 0px -100px 0px"
+// };
 
-const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) 
-{
-    entries.forEach(entry =>{
-        if(!entry.isIntersecting){
-            return;
-        } else{
-            entry.target.classList.add('appear');
-            appearOnScroll.unobserve(entry.target);
-        }
-    });
-}, appearOptions);
+// const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) 
+// {
+//     entries.forEach(entry =>{
+//         if(!entry.isIntersecting){
+//             return;
+//         } else{
+//             entry.target.classList.add('appear');
+//             appearOnScroll.unobserve(entry.target);
+//         }
+//     });
+// }, appearOptions);
 
 
-faders.forEach(fader =>{
-    appearOnScroll.observe(fader);
-});
+// faders.forEach(fader =>{
+//     appearOnScroll.observe(fader);
+// });
 
 
 function Projects(){
@@ -31,7 +31,7 @@ function Projects(){
         <div id="project-back">
             <div id="proj-cont">
             <div className="project-parentDiv">
-                <div className="project-1  fade-in">
+                <div className="project-1   ">
                     <div className="project-img">
                         {/* <img></img> */}
                     </div>
@@ -42,7 +42,7 @@ function Projects(){
                         </p>
                     </div>
                 </div>
-                <div className="project-1 fade-in">
+                <div className="project-1">
                     <div className="project-img">
                         {/* <img></img> */}
                     </div>
@@ -53,7 +53,7 @@ function Projects(){
                         </p>
                     </div>
                 </div>
-                <div className="project-1 fade-in"> 
+                <div className="project-1"> 
                     <div className="project-img">
                         {/* <img></img> */}
                     </div>
