@@ -10,6 +10,7 @@ function Projects(){
                         {/* <img></img> */}
                     </div>
                     <div className="project-description">
+                        <h3>Meh</h3>
                         <p>Lorem Ipsum jekajade lo si ode. Iwo na mo wipe mo feran re.
                             Inu mi ma tutu ti o ba sowipe o nbo wa si odo mi.
                         </p>
@@ -20,6 +21,7 @@ function Projects(){
                         {/* <img></img> */}
                     </div>
                     <div className="project-description">
+                        <h3>Meh</h3>
                         <p>Lorem Ipsum jekajade lo si ode. Iwo na mo wipe mo feran re.
                             Inu mi ma tutu ti o ba sowipe o nbo wa si odo mi.
                         </p>
@@ -30,6 +32,7 @@ function Projects(){
                         {/* <img></img> */}
                     </div>
                     <div className="project-description">
+                        <h3 className="rebelh3">Meh</h3>
                         <p>Lorem Ipsum jekajade lo si ode. Iwo na mo wipe mo feran re.
                             Inu mi ma tutu ti o ba sowipe o nbo wa si odo mi.
                         </p>
@@ -40,6 +43,7 @@ function Projects(){
                         {/* <img></img> */}
                     </div>
                     <div className="project-description">
+                        <h3>Meh</h3>
                         <p>Lorem Ipsum jekajade lo si ode. Iwo na mo wipe mo feran re.
                             Inu mi ma tutu ti o ba sowipe o nbo wa si odo mi.
                         </p>
