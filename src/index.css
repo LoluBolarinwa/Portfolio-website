@@ -205,7 +205,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   font-size: 150px;
   /* font-weight: 700; */
   stroke-width: 2;
-  /* stroke-dasharray:10,10"; */
+  /* stroke-dasharray:433.21; */
   animation: nameAnimation 6s;
 }
 
@@ -223,12 +223,13 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   }
 }
 
-/* 0% { [nameAnimation 16s]
+ /*0% { [nameAnimation 16s]
   stroke-dasharray: 50, 50;
 }
 100% {
   stroke-dasharray: 100%;
-} */
+} 
+}*/
 
 .job-title{
   color: #ff9900;
@@ -670,6 +671,13 @@ h1{
 /* FOR MOBILE RESPONSIVE DESIGN */
 
 @media screen and (max-width:768px){
+  .navbar-list li a{
+    all:unset;
+  }
+  .navbar{
+    /* all:unset; */
+  }
+  
   .main{
     /* background: white; */
     width: 80%;
@@ -856,6 +864,8 @@ h1{
     background-color: royalblue;
     width: 80%;
     height: 100%;  
+    display: flex;
+    flex-direction: column;
   }
   
   /* .project-2{}
@@ -869,8 +879,10 @@ h1{
     ) no-repeat center center;
     background-size:100%;
     /* float: left; */
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-direction: column; */
+
+    /* flex-wrap: wrap; */
     margin-right: 20px;
   
   }
