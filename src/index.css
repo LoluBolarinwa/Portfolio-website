@@ -548,7 +548,7 @@ h1{
 }
 
 .project-1{
-  background-color: royalblue;
+  /* background-color: #b7d8fb; */
   width: 75%;
   height: 100%;  
   display: flex;
@@ -869,7 +869,7 @@ h1{
 .project-parentDiv{
   width: 95vw;
   height: 250vh;
-  background-color: #916bbf;
+  /* background-color: #916bbf; */
   display: flex;
   justify-content:center;
   align-items: center;
@@ -879,7 +879,7 @@ h1{
 }
 
 .project-1{
-  background-color: royalblue;
+  /* background-color: royalblue; */
   width: 80%;
   height: 100%;  
   display: flex;
