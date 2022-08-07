@@ -544,6 +544,7 @@ h1{
   align-items: center;
   flex-direction: column;
   gap: 40px;
+  /* overflow: hidden; */
 }
 
 .project-1{
@@ -849,53 +850,77 @@ h1{
     fill: #ff9900;
   }
 
-  .project-parentDiv{
-    width: 100vw;
-    height: 150vh;
-    background-color: #916bbf;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-    /* gap: 40px; */
-  }
   
-  .project-1{
-    background-color: royalblue;
-    width: 80%;
-    height: 100%;  
-    display: flex;
-    flex-direction: column;
-  }
+#project-back{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 50px;
+  /* background-color:white; */
+}
+
+/* #proj-cont{ */
+  /* background-color: black; */
+  /* width: 70vw; */
+  /* height: 80%; */
+/* height: auto; */
+/* } */
+
+.project-parentDiv{
+  width: 95vw;
+  height: 250vh;
+  background-color: #916bbf;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* gap: 40px; */
+  /* overflow: hidden; */
+}
+
+.project-1{
+  background-color: royalblue;
+  width: 80%;
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+  /* overflow:visible; */
+  /* flex-wrap: wrap; */
+}
+
+/* .project-2{}
+.project-3{}
+.project-4{} */
+
+.project-img{
+  width: auto;
+  /* height: 100%; */
+  /* float: none; */
+  background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2plY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+  ) no-repeat center center;
+  background-size:100%;
   
-  /* .project-2{}
-  .project-3{}
-  .project-4{} */
-  
-  .project-img{
-    width: 65%;
-    height: 100%;
-    background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2plY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
-    ) no-repeat center center;
-    background-size:100%;
-    /* float: left; */
-    /* display: flex;
-    flex-direction: column; */
-
-    /* flex-wrap: wrap; */
-    margin-right: 20px;
-  
-  }
-  .project-description{
-    background-color: red;
-    color: #b7d8fb;
-    margin: 2rem 0 0 0rem ;
-  }
-  
-
-
-
-
+  /* float: left; */
+  /* display: flex;*/
+    /* flex-wrap: wrap;  */
+  /* margin-right: 20px; */
+/* background-color:#ff9900; */
+}
+.project-description{
+  color: #b7d8fb;
+  width: auto;
+  /* height: 25px; */
+  /* background-color: red; */
+  /* margin: 7rem 0 0 5rem ; */
+  /* margin: 0;
+  padding: 0; */
+}
+.project-description h3{
+  margin: 0rem 1rem 0;
+}
+.project-description p{
+  margin: 0 1rem;
+}
 
 
   /* Floating Social Icons */
