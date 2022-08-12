@@ -19,7 +19,7 @@ body {
 
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: rgb(13,69,102);                                                    /*rgb(6, 31, 60)*/
-  background: radial-gradient(circle at 30% 15%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%);
+  background: radial-gradient(circle at 30% 10%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%);
   /* background: radial-gradient(circle at 30% 15%, #0a3853 7%, #041f2f 15%, rgb(0, 4, 9) 80%); */
 
 /* font-family: 'Cantarell', sans-serif; */
@@ -679,6 +679,15 @@ h1{
 /* FOR MOBILE RESPONSIVE DESIGN */
 
 @media screen and (max-width:768px){
+body{
+  /* background: rgb(13,69,102);                                                     */
+  /*rgb(6, 31, 60)*/
+  background: radial-gradient(circle at 30% 10%, #0f4e73 3%, #093049 7%, rgb(2, 18, 36) 40%);
+  /* background: radial-gradient(circle at 30% 10%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%); */
+
+  background: radial-gradient(circle at 50% 15%, #0f4e73 2%, #093049 15%, rgb(2, 18, 36) 80%);
+}
+
   .navbar-list li a{
     all:unset;
   }
@@ -703,7 +712,7 @@ h1{
   }
 
   .name-intro{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 
   .name{
@@ -854,9 +863,9 @@ h1{
   
   .solidity-icon{
     /* fill: #ff9900; */
-    width: 58px;
-    height:58px;
-    margin: 18px auto;
+    width: 48px;
+    height:48px;
+    margin: 24px auto;
     padding: 0;
   }
   .solidity-icon:hover{
