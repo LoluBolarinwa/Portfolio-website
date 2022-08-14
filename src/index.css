@@ -653,7 +653,7 @@ h1{
 
 /* .header__container {
   position: relative;
-  text-align: center;
+  text-align:er;
 } */
 .svg-socials:after, .svg-socials:before {
   background: var(--color-white);
