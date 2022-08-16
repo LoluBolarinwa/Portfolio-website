@@ -6,6 +6,9 @@
 
 }
 
+/* html{
+  scroll-behavior: smooth;
+} */
 /* .App{
   
 } */
@@ -235,6 +238,37 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   color: #ff9900;
   /* font-size: 3rem; */
   
+}
+
+/* .job-title-intro{} */
+
+.slides{
+  display: inline-flex;
+  height: 3.1rem;
+  overflow: hidden;
+  /* padding: 0 1rem;
+  margin: 0 -1rem; */
+}
+
+.slides1{
+  display: flex;
+  flex-flow: column nowrap;
+  transform: translateY(100%);
+  animation: slide-up 9s ease infinite;
+
+  /* line-height: 3rem; */
+}
+
+@keyframes slide-up{
+  10%, 33%{
+    transform: translateY(0%);
+  }
+  43%, 66%{
+    transform: translateY(-100%);
+  }
+  76%, 100%{
+    transform: translateY(-200%);
+  }
 }
 
 .description{

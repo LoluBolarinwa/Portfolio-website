@@ -23,7 +23,16 @@ function Section1() {
                     <text id="text-svg" x="35%" y="65%"  fill="transparent" textAnchor="middle">Lolu Bolarinwa</text>
                 </svg>
                 {/* <h3>I am a <span>FrontEnd Developer</span></h3> */}
-                <h1 className="job-title-intro">I am a<span className="job-title"> Frontend Developer</span></h1>
+                <h1 className="job-title-intro">I am a&nbsp;
+                    <span className="slides">
+                        <span className="slides1">
+                            <span className="job-title"> Frontend Developer</span>
+                            <span className="job-title"> Blockchain Developer</span>
+                            <span className="job-title"> Software Engineer</span>
+                            <span className="job-title"> Web3 Developer</span>
+                        </span>
+                    </span>
+                </h1>
                 {/* <p>Blockchain Developer</p> */}
 
                 </div>
