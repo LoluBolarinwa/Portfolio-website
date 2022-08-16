@@ -33,7 +33,7 @@ const Socials=()=>{
 
 const Socialmobile=()=>{
     return(
-        <div id="socials-mobile">
+        <div id="socials-mobile"><a id="Contacts"></a>
             <div className="socials-mobile">
             <p>Contact Me!</p>
                 <a rel="noreferrer noopener" href="https://twitter.com/Lolu_Bolarinwa" target="_blank">

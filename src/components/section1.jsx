@@ -8,7 +8,7 @@ import Projects from "./project-section.jsx";
 
 function Section1() {
     return (
-    <div className="first-div">
+    <div className="first-div" ><a id="Home"></a>
             <Navigation />
             
         <section className="section-1">

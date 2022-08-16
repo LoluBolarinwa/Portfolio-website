@@ -4,7 +4,7 @@ import React from "react";
 
 function Section2(){
     return(
-        <div className="about">
+        <div className="about"><a id="About"></a>
 
             <div className="about-me-div">
                 <h2 className="about-me">About <span className="me">Me.</span>
