@@ -240,7 +240,9 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   
 }
 
-/* .job-title-intro{} */
+.job-title-intro{
+  /* line-height: 3rem; */
+}
 
 .slides{
   display: inline-flex;
@@ -256,7 +258,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   transform: translateY(100%);
   animation: slide-up 9s ease infinite;
 
-  /* line-height: 3rem; */
+  line-height: 3.2rem;
 }
 
 @keyframes slide-up{
@@ -284,6 +286,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   height: 100%;
   height: auto;
   text-align: left;
+  margin-top: 1rem;
   /* background: blue; */
   /* position: relative; */
 
