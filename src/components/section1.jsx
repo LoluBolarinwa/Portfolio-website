@@ -27,9 +27,9 @@ function Section1() {
                     <span className="slides">
                         <span className="slides1">
                             <span className="job-title"> Frontend Developer</span>
-                            <span className="job-title"> Blockchain Developer</span>
-                            <span className="job-title"> Software Engineer</span>
                             <span className="job-title"> Web3 Developer</span>
+                            <span className="job-title"> Software Engineer</span>
+                            {/* <span className="job-title"> Blockchain Developer</span> */}
                         </span>
                     </span>
                 </h1>
