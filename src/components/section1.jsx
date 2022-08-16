@@ -18,7 +18,8 @@ function Section1() {
                 <div>
                 <p className="name-intro">Hi, I'm</p>
                 {/* <h1 className="name">Lolu Bolarinwa</h1> */}
-                <svg className="svg-name" viewBox="-50 0 1800 250" >
+                <svg className="svg-name" viewBox="-150 0 1800 250" >
+                {/* <svg className="svg-name" viewBox="-50 0 1800 250" > */}
                 {/* // height="1em" width="1em"> */}
                     <text id="text-svg" x="35%" y="65%"  fill="transparent" textAnchor="middle">Lolu Bolarinwa</text>
                 </svg>
