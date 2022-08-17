@@ -107,6 +107,8 @@ body::selection {
   justify-content: flex-end;
   /* align-items:center; */
   align-items: flex-end;
+
+  display: none;
 }
 
 .navbar-list{
@@ -140,7 +142,7 @@ li a{
   text-decoration: none;
   font-size: 0.9rem;
 
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 li a:hover{
@@ -673,7 +675,7 @@ h1{
   bottom: 7rem;
   /* top: 2rem; */
   display: flex;
-  /* justify-content: flex-end; */
+  /* justify-content: flex */
   /* position: fixed; */
   position: fixed;
 
@@ -715,7 +717,7 @@ h1{
 
 
 /* FOR MOBILE RESPONSIVE DESIGN */
-
+/* @media screen and (max-width:868px){ */
 @media screen and (max-width:768px){
 body{
   /* background: rgb(13,69,102);                                                     */
