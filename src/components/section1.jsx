@@ -16,7 +16,7 @@ function Section1() {
 
             <div className="main row">
                 <div>
-                <p className="name-intro">Hi, I'm</p>
+                <p className="name-intro">Hi, my name is</p>
                 {/* <h1 className="name">Lolu Bolarinwa</h1> */}
                 <svg className="svg-name" viewBox="-150 0 1800 250" >
                 {/* <svg className="svg-name" viewBox="-50 0 1800 250" > */}

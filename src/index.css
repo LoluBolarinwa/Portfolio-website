@@ -725,7 +725,7 @@ body{
   background: radial-gradient(circle at 30% 10%, #0f4e73 3%, #093049 7%, rgb(2, 18, 36) 40%);
   /* background: radial-gradient(circle at 30% 10%, #0f4e73 7%, #093049 15%, rgb(2, 18, 36) 80%); */
 
-  background: radial-gradient(circle at 50% 15%, #0f4e73 2%, #093049 15%, rgb(2, 18, 36) 80%);
+  background: radial-gradient(circle at 35% 7%, #0f4e73 2%, #093049 7%, rgb(6, 30, 58) 80%);
 }
 
   .navbar-list li a{
