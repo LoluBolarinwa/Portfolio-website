@@ -107,8 +107,8 @@ body::selection {
   justify-content: flex-end;
   /* align-items:center; */
   align-items: flex-end;
-
-  display: none;
+  z-index: 1  ;
+  /* display: none; */
 }
 
 .navbar-list{
@@ -258,6 +258,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 }
 
 .slides1{
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   transform: translateY(100%);
