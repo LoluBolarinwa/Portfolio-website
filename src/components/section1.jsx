@@ -8,7 +8,7 @@ import Projects from "./project-section.jsx";
 
 function Section1() {
     return (
-    <div className="first-div" ><a id="Home"></a>
+    <div className="first-div" ><a href="" id="Home"></a>
             <Navigation />
             <div className="navdropDown">
             <svg className="navbarsvg" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M16 18v2H5v-2h11zm5-7v2H3v-2h18zm-2-7v2H8V4h11z"></path></g></svg>
