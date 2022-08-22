@@ -737,7 +737,10 @@ body{
   /* display: none; */
   /* backdrop-filter: blur(14px); */
 /* background-color: aqua; */
-text-align: center;
+/* text-align: center; */
+left: -100%;
+transition: all .5s;
+
   }
 
   .navdropDown{
@@ -781,10 +784,10 @@ text-align: center;
   /* align-items: flex-end; */
   /* display:block; */
 }
-.navbarsvg:after{
+/* .navbarsvg:after{
   content: "+";
   transition: .5s;
-}
+} */
 
 
 .navbar-list{
@@ -812,6 +815,7 @@ text-align: center;
   padding-left: 5rem;
   /* padding-right: 0; */
   text-align: center;
+  transition: all .5s;
 
 
   /* align-items: center; */
@@ -822,6 +826,10 @@ text-align: center;
   /* align-items: flex-end; */
   /* align-items: center; */
 
+}
+
+.active{
+  left: 0;
 }
 
 li a{
