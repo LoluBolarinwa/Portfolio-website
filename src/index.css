@@ -135,9 +135,12 @@ body::selection {
 
 li a{
   /* display:inline-block; */
-  margin: 5px;
   /* padding-left: 4rem; */
-  padding-right: 80px;
+  /* margin: 5px; */
+  /* padding: 1px 50px; */
+  margin: 1px 50px;
+
+  /* padding-right: 80px; */
   /* color: rgb(23, 146, 211); */
   color: white;
   letter-spacing: 1px;
