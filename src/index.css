@@ -3,7 +3,6 @@
 
   --color-white: #fff;
 
-
 }
 
 /* html{
@@ -95,7 +94,8 @@ body::selection {
   backdrop-filter: blur(6px);
   /* padding:1.8rem; */
   position: fixed;
-  top: 0;
+  /* overflow: hidden; */
+  /* top: 0; */
   /* border-bottom: 1px solid hsla(2,0%,100%,.1); */
   /* background-color: rgba(0,0,0,0.1); */
 
@@ -740,6 +740,7 @@ body{
   /* backdrop-filter: blur(14px); */
 /* background-color: aqua; */
 /* text-align: center; */
+/* position: fixed; */
 left: -100%;
 transition: all .5s;
 
