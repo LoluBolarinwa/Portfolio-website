@@ -617,6 +617,11 @@ h1{
   /* margin-right: 20px; */
 /* background-color:#ff9900; */
 }
+
+.project-img:hover{
+  transform: translateY(-2px);
+}
+
 .project-description{
   color: #b7d8fb;
   width: 40%;
