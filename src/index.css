@@ -620,7 +620,7 @@ h1{
 }
 
 .project-img:hover{
-  transform: translateY(-4px);
+  transform: translateY(-3px);
 }
 
 .project-description{
